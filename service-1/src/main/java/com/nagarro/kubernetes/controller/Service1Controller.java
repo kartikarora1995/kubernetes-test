@@ -28,7 +28,7 @@ public class Service1Controller {
 	@GetMapping(value = "/call-dummy")
 	public String callDummy()
 	{
-		String url = "http://localhost:8080/dummy";
+		String url = "http://localhost:8080/service2/dummy";
         System.out.println("URL" + url);
         Map<String, String> params = new HashMap<>();
         String resp = restTemplate.getForObject(url, String.class, params);

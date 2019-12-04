@@ -1,13 +1,13 @@
-package com.nagarro.kubernetes;
+package com.kubernetesTest.serviceB;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Service1Application {
+public class ServiceBApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Service1Application.class, args);
+		SpringApplication.run(ServiceBApplication.class, args);
 	}
 
 }

@@ -1,10 +1,10 @@
-package com.kubernetesTest.serviceB;
+package com.nagarro.kubernetes;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ServiceBApplicationTests {
+class Service1ApplicationTests {
 
 	@Test
 	void contextLoads() {

@@ -8,11 +8,11 @@
 		<version>2.2.1.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.kubernetesTest</groupId>
-	<artifactId>ServiceB</artifactId>
+	<groupId>com.nagarro</groupId>
+	<artifactId>service-1</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ServiceB</name>
-	<description>Demo project for Spring Boot</description>
+	<name>service-1</name>
+	<description>Demo project for Kubernetes Test</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -29,6 +29,12 @@
 			<artifactId>spring-cloud-gcp-starter</artifactId>
 		</dependency>
 
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<scope>runtime</scope>
+			<optional>true</optional>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>

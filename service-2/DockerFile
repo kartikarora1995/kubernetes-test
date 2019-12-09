@@ -2,5 +2,5 @@ FROM java:8
 LABEL maintainer="dishadhingra100@gmail.com"
 VOLUME /tmp
 EXPOSE 8080
-ADD /build/libs/service-2.jar service-2.jar
-ENTRYPOINT ["java","-jar","service-2.jar"]
+ADD /target/service-2-0.0.1-SNAPSHOT.jar service-2-0.0.1-SNAPSHOT.jar
+ENTRYPOINT ["java","-jar","service-2-0.0.1-SNAPSHOT.jar"]
